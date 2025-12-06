@@ -22,23 +22,26 @@ It includes a fully normalized schema, advanced SQL queries, stored procedures, 
 ---
 
 ## 🛠 Features
-### ✔ Relational Database Structure  
-- Movies, directors, actors, genres, users, ratings  
-- Many-to-many tables (Movie_Actor, Movie_Genre)  
-- Fully normalized design  
 
-### ✔ SQL Components Included  
-- **Stored Procedures**  
-- **Views**  
-- **Triggers**  
-- **Window & aggregate functions**  
-- **Advanced queries (Top 5 movies, highest rated, etc.)**
+### ✔ Relational Database Structure
 
-### ✔ Data Integrity  
-- Foreign key constraints  
-- BEFORE and AFTER triggers  
-- Prevent duplicate ratings  
-- Auto-update average rating
+* Tables for movies, directors, actors, genres, users, and ratings
+* Many-to-many relationships (Movie_Actor, Movie_Genre)
+* Fully normalized schema for optimal data integrity
+
+### ✔ SQL Components Included
+
+* **Stored Procedures**
+* **Views**
+* **Triggers**
+* **Advanced queries** using window functions, aggregates, and ranking
+
+### ✔ Data Integrity
+
+* Foreign key constraints
+* BEFORE and AFTER triggers
+* Prevention of duplicate ratings
+* Automatic calculation of average ratings
 
 ---
 
